@@ -29,14 +29,14 @@
             bindings = <
     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y   &kp U       &kp I       &kp O       &kp P
     &kp A       &kp S       &kp D       &kp F       &kp G           &kp H   &kp J       &kp K       &kp L       &kp SEMI
-    &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N   &kp M       &kp COMMA   &kp DOT     &kp FSLH
+    &kp Z       &kp X       &kp C       &kp V       &lt RET B           &kp N   &kp M       &kp COMMA   &kp DOT     &kp FSLH
     &kp LGUI    &lt 3 TAB   &lt 1 SPACE &kp LCTRL   &kp RET         &kp DEL &kp LSHFT   &lt 2 BSPC  &kp LALT    &kp ESC
             >;
 
             sensor-bindings = <
                 &inc_dec_kp LEFT RIGHT
-                &inc_dec_kp DOWN UP
-                &inc_dec_kp DOWN UP
+                &inc_dec_kp PG_DN PG_UP
+                &inc_dec_kp UP DOWN
                 &inc_dec_kp LEFT RIGHT
             >;
         };
@@ -58,14 +58,14 @@
             bindings = <
     &trans      &kp PG_UP   &kp UP      &kp PG_DN   &trans                  &kp FSLH    &kp N7      &kp N8      &kp N9      &kp MINUS
     &kp HOME    &kp LEFT    &kp DOWN    &kp RIGHT   &kp END                 &kp EQUAL   &kp N4      &kp N5      &kp N6      &kp PLUS
-    &trans      &trans      &kp INS     &trans      &trans                  &kp N0      &kp N1      &kp N2      &kp N3      &kp ASTERISK
+    &trans      &trans      &kp INS     &trans      &kp RET                  &kp N0      &kp N1      &kp N2      &kp N3      &kp ASTERISK
     &kp LGUI    &lt 3 TAB   &lt 1 SPACE &kp LCTRL   &kp RET                 &kp DEL     &kp LSHFT   &lt 2 BSPC  &kp LALT    &kp ESC
             >;
 
             sensor-bindings = <
                 &inc_dec_kp PAGE_DOWN PAGE_UP
                 &inc_dec_kp C_VOL_DN C_VOL_UP
-                &inc_dec_kp DOWN UP
+                &inc_dec_kp C_PREV C_NEXT
                 &inc_dec_kp LEFT RIGHT
             >;
         };
